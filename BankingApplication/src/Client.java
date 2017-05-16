@@ -13,6 +13,7 @@ public class Client {
 		}catch(InvalidAccountNumberException i)
 		{
 			System.out.println("Invalid account number ");
+			i.printStackTrace();////////////////////////////////////////
 		}
 		catch(InsufficientBalanceException ibe){
 			System.out.println("insufficient balance");
